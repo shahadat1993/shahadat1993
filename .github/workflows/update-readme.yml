@@ -1,0 +1,27 @@
+name: 🌙 Auto Update Profile README
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # প্রতিদিন রাত ১২টায় (UTC অনুযায়ী) auto update হবে
+  workflow_dispatch: # ম্যানুয়ালি চালানোর সুযোগ থাকবে
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Update README Content
+        uses: teoxoy/profile-readme-stats@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          readme_path: README.md
+
+      - name: Commit & Push Changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "🧠 Auto update README [skip ci]" || echo "No changes to commit"
+          git push
