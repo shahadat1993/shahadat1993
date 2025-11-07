@@ -1,7 +1,8 @@
 <!-- Header section -->
 <h1 align="center">
-  Hi 👋, I'm <a href="[https://www.linkedin.com/in/mdshahadat](https://www.linkedin.com/in/shahadat-hossen-tasnif?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)">Md Shahadat</a>
+  Hi 👋, I'm <a href="[https://www.linkedin.com/in/mdshahadat](https://www.linkedin.com/in/shahadat-hossen-tasnif/)">Md Shahadat</a>
 </h1>
+
 
 
 <!-- Typing effect -->
@@ -61,7 +62,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mdshahadat&layout=compact&theme=tokyonight&hide_border=true" alt="languages" />
+  <img src="https://skillicons.dev/icons?i=js,php,mysql,git,github" />
 </p>
 
 ---
