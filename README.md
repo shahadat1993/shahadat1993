@@ -15,7 +15,6 @@
 ---
 
 ### 💫 About Me:
-- 👨‍💼 Founder of [CodeNest Agency](https://www.facebook.com/profile.php?id=61583407224136)  
 - 🌱 I’m currently learning **Full Stack Web Development (MERN + Laravel)**
 - 👨‍💻 All of my projects: [GitHub Repositories](https://github.com/shahadat1993)
 - 💬 Ask me about **JavaScript, React, PHP, Laravel**
